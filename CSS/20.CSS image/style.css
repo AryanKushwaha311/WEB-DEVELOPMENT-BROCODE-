@@ -1,0 +1,13 @@
+.Images img{
+    width: 200px;
+   
+    max-height: 200px;
+    max-width: 200px;
+    
+}
+
+.Images{
+    text-align: center;
+    display: inline-block;
+    border: 2px solid black;
+}

@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.parent{
+    height: 200px;
+    width: 200px;
+}
+.box-1{
+    background-color: lightblue;
+    border: 2px solid black;
+    height: 50%;
+    width: 50%;
+}
+
+
+

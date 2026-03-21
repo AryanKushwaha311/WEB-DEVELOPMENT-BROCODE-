@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAACNElEQVR4nO2UO4gUQRCGxweoiIqpGKmBCIqwV7XLujpu1aycIGpyBgYGgg8wFjEQkxMU7gIxEiMjM/EBRgaCgYZGCoKgICbKuU73cOBrpOZ67ublup7ijlAfDEx3dXfV391/e56iKIqiKIqiKIoyIgzhK/lCwm1pn2WM5Su2s59hvPezWDq3ch7B9aocWbKxeGJimWF4mtTYhT3SZwI4ktTNcDeTBK5VLTBqAYIlnHZzb0rbEDyRdsTNkwtJCPtxb8fqQQJkN/qdzvqZoLEujRXH/KpvMbFwX2PrnACM5BTchs8k9WZ3J1E0QEBVsn8hQLAEj52Idy4+NRfIXQt4lu2rlQDGYwvXEL/N8tim3GDD+Dk5hQBbw3jgdwQUfbMYAXGrtcoyfiyukxVwOzVKLQV43hJL+MKtc7mchMb2u2s0W8crZALgzFV/G/v+8tzg+KK31DC8rtrlWgggvJ8/UThQGmwZLgwSYKjZM4RnDONkRHD6bwiwBOdkLRPA0dSYxXn9bmOzGFd8ahhvuKt+p5Qk8nGjIfg6jAdyRvoTATzEM0541e36rbRGw/AlCtobSoOlsLIAMJbguSV8KCY3DJeibvNg7oiD1vb5p20IwqDZiRgPWcbjlvGsYbgSEu52BT8Sw8r/+3Z7jSX4JPWEexu7XI0PXI3npfHdEL6ZL7YHO20AJ8Q0Xg34MI5rI8LDEeGptE8eHDGyJXjpxb6/0vtPice3rBh1DYqiKIqiKIqieCPjB7io8msvqAkwAAAAAElFTkSuQmCC" alt="netflix">
+            
+        </div>
+        <nav class="navbar">
+            <a href="">Home</a>
+            <a href="">TV Shows</a>
+            <a href="">Movies</a>
+            <a href="">New & Popular</a>
+            <a href="">My List</a>
+            <a href="">Browse by Languages</a>
+        </nav>
+
+        <div class="user">
+            <a href="">
+                <img class="user-logo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEoUlEQVR4nO2ZbUyVZRjHbzi8M97HGCZt8s7hKE2aJM02mwnhF+eUMKwptSmExFgOa9PRcLWpUKkQjdn64kBea/kCBVqkLTZRiBDJmJ4RCQgCCQj0crX/NZ6zdHHOw3mO3Cfnh+sT9/U//x/P89z3dV23EELQIxJCtoHHIGIxQMLDwih961Z6d/9++qi4mIoPHaJ39u6l59euJScnJ/sG0el0lLF9O/3U3k40Oztv/HLtGj23Zo19ggQHB9P3LS0ms/1GI1VVVNAHhw9TXm4uB55MT1cX/31qfJxKjhyhxNWr7QfE19fXZPDnq1dpQ0oKOTg4/OdaR0dHKjp48L4nVHniBHl4eMgH+ez4cTbU1tpKPj4+FtcDRh8TQ7k5OTTU38+5ddXVckGeDAmhP+/doz+mpihuxYoF54cuW0Z3BgcZJjkpSR5I1q5dbKK2qspqjYJ9+0yvmJAFUl9TwyZe27HDao2Y6GjW6O3pkQfyw4ULbOKZhARN2/b03bv098yMlo9eG8j17m4GiY6K0qQzPjzMOtgBpYB0d3aygajISE06k2NjrOPt7S0H5NvmZjag5aT29/dnjYnRUS1etIFgp4GJtNRUqzUSVq1ijR8vX5YHgkIQJt4/cMBqjbfy8ljj42PH5IEkrV/PJpobG63W+LK+njVeTkuTB/JicjKb+H1kxKry3MXFhcZu32aNDSkp8kC+aWpiE/l79sxbKJoL5Lydn88aTQ0N8kCU7deaOksJ5EKjq6NDHkh1ZSWbQENlrcbrGRmsUVVRIQ/k1W3b2ISxt5ebp4XmIwe50HglPV0eCOqkmpMnuU5CmYFeQ20u1iqlCapnnU4nD0SJ9kuX2FCsXq86Z7nBwDn4zmzgQdgEBP04TL1XWKg6B4cocspKSuwHJH7lSjaFbi8wMFBVfTUyMMA5zyYm2g+IEII+r61lYzhbAgIC5l3n5eVFjadP89qvz5611e8Lm4E8sWQJDfT1WWy00LtgDU70sNBQ+wMRQvAkxRIIJijKoM6Gvy1sCtJ55YpFEKVH77txw35Brs+1vobYWLMjJKzBTMsuQYKCgrjLg8mQpUvnXYchHg7QmYkJhrIrkOUGA3W0tTFEw6lTFtejrlIOw6fj4+WDxOr13NnNTk6aZr8YaFvKw/asTO0xqfy0vJyeiotbXBA0UJs2buSuEK8IzPw1Pc0z4IWMc3CelJeVca4y0P7u/HlK3byZnJ2dHx6Im5sbZWdlmapVBMY4n5SWmv24LQV2sdKjR03fF+LXmzfpzd27yd3d3XYg6OLQb+DOQ/khvBY52dnk5+en6dV8cBN4IzPT9K0hfjMauV9R0X2aF/f09KQv6upMwhiRapyaq4oX1q277+II5Q+8WAXi6upKLefOsdDwrVv00pYtDx1APBBotpRXDl4wrFgwyIdFRaYTODIiYtEhxL+2dniAF9x2LQgkIjycL2+wo2ASKAtCzAVKHnjBNo8bY9UghQUF/B/46swZ6RBiLlDywxOuvFWDtF68yEmZO3dKBxBzAS/KhqMaZHRoyOxducy4MzioDgSHkGyzZCFwOKt6Iv/DELINPAYRjyLIP9ODJ5WaOCk6AAAAAElFTkSuQmCC" alt="user profile">
+            </a>
+            <div class="dropdown">
+                <a href="">Account</a>
+                <a href="">Your Wishlist</a>
+                <a href="">LogOut</a>
+                <a href="">More</a>
+
+            </div>
+        </div>
+    </header>
+    
+</body>
+</html>

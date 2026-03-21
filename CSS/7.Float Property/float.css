@@ -1,0 +1,42 @@
+body{
+    background-color: green;
+    color: rgb(245, 208, 208);
+    border: 3px solid black;
+    display: flow-root;
+}
+
+h1{
+    color:rgb(243, 224, 224);
+}
+#img1{
+    float: left;
+    margin-right: 10px;
+    height: 130px;
+}
+
+#img2{
+    float: right;
+    margin-left: 10px;
+}
+
+#img3{
+    float: left;
+    margin-right: 10px;
+}
+
+#img4{
+    float: right;
+    margin-left: 10px;
+}
+
+#img5{
+    float: left;
+    margin-right: 10px;
+    height: 150px;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color:rgb(250, 58, 58);
+}

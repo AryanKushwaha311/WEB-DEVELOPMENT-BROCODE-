@@ -1,0 +1,32 @@
+
+
+.dropdown button{
+    background-color: hsl(0, 2%, 74%);
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.dropdown .genre{
+    display: none;
+    background-color: gray;
+    position: absolute;
+    box-shadow: 2px 2px 2px;
+    margin-left: 30px ;
+    
+}
+
+.dropdown .genre a{
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown:hover .genre {
+    display: block;
+}
+
+.dropdown .genre a:hover{
+    background-color: hsl(0, 3%, 77%);
+}

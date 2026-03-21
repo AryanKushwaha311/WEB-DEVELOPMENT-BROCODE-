@@ -1,0 +1,44 @@
+button:hover{
+    font-size: 1.1em;
+    background-color: red;
+}
+
+button:active{
+    
+    background-color: blue;
+}
+
+a:link{
+    color: lightblue;
+}
+
+a:hover{
+    color: red;
+    font-size: 1.1em;
+}
+
+a:active{
+    color: darkblue;
+}
+
+/* para */
+p:hover{
+    background-color: yellow;
+}
+p:active{
+    background-color: green;
+}
+p:not(:hover){
+    background-color: grey;
+}
+
+/* hiding */
+
+#greeting p{
+    background-color: blue;
+    display:none
+}
+
+#greeting:hover p{
+    display: block;
+}

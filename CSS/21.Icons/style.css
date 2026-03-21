@@ -1,0 +1,35 @@
+.icons {
+    text-align: center;
+    font-size: 50px;
+    margin: 30px;
+}
+
+.icons .fas.fa-home{ 
+    color: hsl(0, 0%, 50%);
+}
+
+.icons .fas.fa-home:hover{
+    color: hsl(0, 0%, 64%);
+}
+
+.icons .fa-brands.fa-twitter{
+    color: hsl(195, 74%, 59%);
+}
+
+.icons .fa-brands.fa-twitter:hover{
+    color: hsl(195, 100%, 66%);
+}
+
+.icons .fa-brands.fa-youtube{
+    color: hsl(0, 100%, 50%);
+}
+
+.icons .fa-brands.fa-youtube:hover{
+    color: hsl(0, 100%, 65%);
+}
+
+.icons .fa-brands.fa-tiktok:hover{
+    color: hsl(0, 0%, 25%);
+}
+
+

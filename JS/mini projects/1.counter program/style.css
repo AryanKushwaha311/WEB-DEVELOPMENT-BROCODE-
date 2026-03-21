@@ -1,0 +1,33 @@
+.program-counter{
+    display: inline-block;
+    border: 2px solid black;
+    text-align: center;
+    margin: 100px ;
+    padding: 50px;
+    background-color: rgb(187, 187, 187);
+}
+
+.btn{
+    border-radius: 5px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 4%, 58%);
+    padding: 5px;
+}
+#countLabel{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    color:rgb(249, 65, 102);
+}
+
+.buttons button:hover{
+    background-color: rgb(204, 195, 195);
+}
+div{
+    text-align: center;
+}
+
+.btn{
+    font-size: 1.5em;
+    margin: 10px;
+}

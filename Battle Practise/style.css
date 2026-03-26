@@ -1,0 +1,27 @@
+.main-container{
+    display: flex;
+    justify-content: center;
+}
+
+.roll-dice{
+    border: 2px solid black;
+    height: 40vh;
+    width: 50vw;
+    text-align: center;
+    background-color: lightpink;
+}
+
+.button{
+    margin-top: 80px;
+}
+
+#number{
+    font-size: 4em;
+    color:green;
+}
+
+#btn-1{
+    font-size: 2em;
+    background-color: lightsalmon;;
+    border-radius: 5px;
+}

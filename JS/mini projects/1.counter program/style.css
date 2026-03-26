@@ -1,33 +1,35 @@
+.main-container{
+    display: flex;
+    justify-content: center;
+}
 .program-counter{
-    display: inline-block;
+    height: 300px;
+    width: 300px;
     border: 2px solid black;
-    text-align: center;
-    margin: 100px ;
-    padding: 50px;
-    background-color: rgb(187, 187, 187);
+    position: relative;
+    background-color: lightcyan;
 }
 
-.btn{
-    border-radius: 5px;
-    color: hsl(0, 0%, 100%);
-    background-color: hsl(0, 4%, 58%);
-    padding: 5px;
-}
-#countLabel{
-    display: block;
+.program-counter .counter{
     text-align: center;
     font-size: 10em;
-    color:rgb(249, 65, 102);
+    color: hsl(240, 83%, 62%);
 }
 
-.buttons button:hover{
-    background-color: rgb(204, 195, 195);
-}
-div{
-    text-align: center;
+.program-counter .buttons{
+    position: absolute;
+    bottom: 25%;
 }
 
-.btn{
-    font-size: 1.5em;
-    margin: 10px;
+.program-counter .buttons .btn{
+    background-color: lightpink;
+    border-radius: 3px;
+    font-size: 1.2em;
+    padding: 5px;
+    margin: 6px;  
+}
+
+.program-counter .buttons .btn:hover{
+    background-color: hsl(0, 0%, 91%);
+    transition: 0.1s;
 }

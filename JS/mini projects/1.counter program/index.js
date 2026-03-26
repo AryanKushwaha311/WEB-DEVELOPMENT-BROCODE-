@@ -1,21 +1,21 @@
-const increase = document.getElementById("increaseBtn");
-const decrease = document.getElementById("decreaseBtn");
-const reset = document.getElementById("resetBtn");
-const countLabel=document.getElementById("countLabel");
 
+const increaseBtn = document.getElementById("incBtn");
+const decreaseBtn = document.getElementById("decBtn");
+const resetBtn = document.getElementById("resetBtn");
+const counter = document.getElementById("counting")
 let count = 0;
 
-increase.onclick=function(){
+increaseBtn.onclick=function(){
     count++;
-    countLabel.textContent=count;
+    counter.textContent=count;
 }
 
-decrease.onclick=function(){
+decreaseBtn.onclick = function(){
     count--;
-    countLabel.textContent=count;
+    counter.textContent = count;
 }
 
-reset.onclick=function(){
-    count=0;
-    countLabel.textContent=count;
+resetBtn.onclick = function(){
+    count = 0;
+    counter.textContent = count;
 }
